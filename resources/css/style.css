@@ -17,6 +17,22 @@ html {
     margin: 0 auto;
 }
 
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    
+}
+
+h1 {
+    color: #fff;
+    font-size: 200%;
+}
+
+h2 {
+    color: #3c3b3b;
+    font-size: 180%;
+}
 
 /*-----------------------------*/
 /*----------HEADER-------------*/
@@ -34,14 +50,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-}
-
-.header-section h1 {
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    word-spacing: 3px;
-    font-size: 200%;
 }
 
 .btn {
@@ -113,3 +121,47 @@ header {
     border-bottom: 2px solid #f39c12;
 }
 
+/*-----------------------------*/
+/*----------FEATURE-------------*/
+/*-----------------------------*/
+.feature-section {
+    margin-top: 80px;
+}
+
+.feature-title {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.feature-title::after {
+    display: block;
+    background-color: #f39c12;
+    margin: 30px auto;
+    width: 10%;
+    height: 2px;
+    content: "";
+}
+
+.feature-title-description {
+    line-height: 145%;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.feature-section ion-icon {
+    font-size: 350%;
+    color: #f39c12;
+}
+
+.feature-section h3 {
+    color: #3c3b3b;
+    font-size: 110%;
+}
+
+.feature-sub-description {
+    line-height: 130%;
+    font-size: 90%;
+    width: 80%;
+    margin-top: 30px;
+}

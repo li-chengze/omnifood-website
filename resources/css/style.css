@@ -51,6 +51,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -258,6 +259,7 @@ header {
 
 .cities-section {
     background-color: #e2e2e2;
+    padding-bottom: 100px;
 }
 
 .cities-section img {
@@ -290,4 +292,44 @@ header {
 .cities-section a:active {
     color: #d8890b;
     border-bottom: 1px solid #d8890b;
+}
+
+/*-----------------------------*/
+/*------Customer Reviews-------*/
+/*-----------------------------*/
+
+.customer-review-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    color: #fff;
+}
+
+.customer-review-section h2 {
+    color: #fff;
+}
+
+.customer-review-section blockquote {
+    font-style: italic;
+    width: 90%;
+}
+
+.customer-review-section blockquote:before {
+    content: '\201C';
+    font-size: 300%;
+    display: block;
+    margin-bottom: -10px;
+}
+
+.customer-review-section cite {
+    display: block;
+    margin-top: 30px;
+}
+
+.customer-review-section cite img {
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
 }

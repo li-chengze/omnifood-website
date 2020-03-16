@@ -251,3 +251,43 @@ header {
     height: 50px;
     margin-right: 15px;
 }
+
+/*-----------------------------*/
+/*----------CITIES-------------*/
+/*-----------------------------*/
+
+.cities-section {
+    background-color: #e2e2e2;
+}
+
+.cities-section img {
+    width: 100%;
+    height: auto;
+}
+
+.city-feature {
+    margin-bottom: 10px;
+}
+
+.cities-section ion-icon {
+    color: #f39c12;
+    font-size: 130%;
+    margin-right: 15px;
+    float: left;
+    display: inline-block;
+}
+
+.cities-section a:link,
+.cities-section a:visited {
+    color: #f39c12;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+    transition: color 0.2s, border 0.2s;
+}
+
+.cities-section a:hover,
+.cities-section a:active {
+    color: #d8890b;
+    border-bottom: 1px solid #d8890b;
+}

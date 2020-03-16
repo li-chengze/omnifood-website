@@ -202,3 +202,43 @@ header {
     transform: scale(1.01);
     opacity: 1;
 }
+
+/*-----------------------------*/
+/*----------DOWNLOAD-----------*/
+/*-----------------------------*/
+
+.app-screen {
+    width: 40%;
+    float:right;
+    margin-right: 40px;
+}
+
+.download-step {
+    margin-bottom: 70px;
+}
+
+.download-step div {
+    color: #f39c12;
+    border: 1px solid #f39c12;
+    display: inline;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 10px;
+    float:left;
+    margin-right: 30px;
+}
+
+.download-step p {
+    padding-top: 10px;
+}
+
+.download-step:last-of-type {
+    margin-bottom: 150px;
+}
+
+.app-store {
+    height: 50px;
+    margin-right: 15px;
+}

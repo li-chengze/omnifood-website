@@ -390,3 +390,79 @@ header {
     color: #f39c12;
     vertical-align: middle;
 }
+
+/*-----------------------------*/
+/*----------CONTACT------------*/
+/*-----------------------------*/
+
+.contact-section {
+    padding-bottom: 100px;
+}
+
+.contact-section form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section select,
+.contact-section textarea {
+    width: 70%;
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+.contact-section input::placeholder,
+.contact-section textarea::placeholder {
+    color:#ccc;
+}
+
+.contact-section *:focus {
+    outline: none;
+}
+
+/*-----------------------------*/
+/*----------FOOTER-------------*/
+/*-----------------------------*/
+
+.footer-section {
+    background-color: #6c6c6c;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section a:link,
+.footer-section a:visited {
+    color: #c7c7c7;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-section a:hover,
+.footer-section a:active {
+    color: #9a9a9a;
+}
+
+.footer-section p {
+    text-align: center;
+    color: #9a9a9a;
+    padding-bottom: 100px;
+}
+
+.footer-nav ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+
+.social-icons ul li{
+   display: inline-block;
+    float: right;
+    margin-left: 50px;
+    font-size: 130%;
+}
+

@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1023px) {
+    .row {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    html {
+        font-size: 18px;
+        font-weight: 300;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+    }
+    
+    .btn {
+        margin: 2% 4.5%;
+    }
+    
+    .download-step {
+        margin-bottom: 40px;
+    }
+    
+    .download-step:last-of-type {
+        margin-bottom: 100px;
+    }
+    
+    .price {
+        font-size: 250%;
+        color: #f39c12;
+        letter-spacing: 0.1px;
+        font-weight: 300;
+    }
+    
+    .contact-section form {
+        width: 90%;
+    }
+    
+    .contact-section input[type="text"],
+        .contact-section input[type="email"],
+        .contact-section select,
+        .contact-section textarea {
+            width: 100%;
+            padding: 7px;
+            border-radius: 7px;
+            border: 1px solid #ccc;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 20px;
+    }
+    
+    .col {
+        width: 100%;
+    }
+    
+    .feature-section .col {
+        margin: 15px 10%;
+    }
+    
+    .feature-section .col:first-child {
+        margin: 15px 10%;
+    }
+    
+    .header-nav {
+        display: none;
+    }
+    
+    .app-screen {
+        width: 60%;
+        float: none;
+    }
+    
+    .app-store {
+        margin-left: 10%;
+    }
+    
+    .download-app-section .col {
+        margin 0;
+        text-align: center;
+    }
+    
+    .download-step div {
+        display: inline-block;
+        padding-top: 5px;
+        float: none;
+    }
+    
+    .cities-section .col {
+        margin: 0;
+    }
+    
+    .customer-review-section {
+        height: auto;
+    }
+    
+    .social-icons ul li{ 
+        float: left;
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    
+}

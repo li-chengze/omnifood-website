@@ -95,10 +95,6 @@ header {
     color: #fff;
 }
 
-.header-nav {
-    margin-top: 0;
-}
-
 .header-logo {
     height: 100px;
     width: auto;
@@ -110,6 +106,7 @@ header {
     float: right;
     list-style: none;
     margin-top: 40px;
+    overflow: visible;
 }
 
 .header-nav li {
@@ -215,7 +212,10 @@ header {
 
 /*-----------------------------*/
 /*----------DOWNLOAD-----------*/
-/*-----------------------------*/
+
+.download-app-section {
+    padding-bottom: 100px;
+}
 
 .app-screen {
     width: 40%;
@@ -460,7 +460,7 @@ header {
 }
 
 .social-icons ul li{
-   display: inline-block;
+    display: inline-block;
     float: right;
     margin-left: 50px;
     font-size: 130%;
